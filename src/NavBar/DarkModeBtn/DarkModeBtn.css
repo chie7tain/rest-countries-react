@@ -1,0 +1,8 @@
+.dark-mode-switcher-button{
+  cursor: pointer;
+  background: var(--Dark-Blue-Dark-Mode-Elements);
+  color:var(--White-Dark-Mode-Text-Light-Mode-Elements);
+  border:none;
+  text-transform: capitalize;
+
+}

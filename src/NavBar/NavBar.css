@@ -1,0 +1,28 @@
+/* styles for heading  */
+nav{
+  background-color: var(--Dark-Blue-Dark-Mode-Elements);
+  margin-bottom: 100px;
+  padding:5px 50px;
+  height:60px;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  box-shadow: var(--box-shadow-header);
+  /* box-shadow:var(--box-shadow-other); */
+  z-index: 2;
+}
+.fixed-nav nav{
+  position: fixed;
+  margin-bottom: 50px;
+  width: 100%;
+  box-shadow: var(--box-shadow-header);
+}
+.dark-mode-switcher-button{
+  cursor: pointer;
+  background: var(--Dark-Blue-Dark-Mode-Elements);
+  color:var(--White-Dark-Mode-Text-Light-Mode-Elements);
+  border:none;
+  text-transform: capitalize;
+
+}
+/* end of styles for heading */

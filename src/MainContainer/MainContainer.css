@@ -1,0 +1,7 @@
+/* styles for main container */
+  .main-container{
+  background-color: var(--Very-Dark-Blue-Dark-Mode-Background);
+    color:var(--White-Dark-Mode-Text-Light-Mode-Elements);
+    height: 100vh;
+}
+/* end of styles for main container */

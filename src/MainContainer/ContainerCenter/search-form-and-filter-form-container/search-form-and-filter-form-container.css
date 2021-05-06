@@ -1,0 +1,8 @@
+/* styles for search form filter container */
+.search-form-and-filter-form-container{
+  display: flex;
+  justify-content: space-between;
+  margin:30px auto;
+  margin-top:100px;
+}
+/* end of styles for search form filter container */

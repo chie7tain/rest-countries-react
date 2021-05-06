@@ -1,0 +1,30 @@
+/* browser styles reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+/* main colors for app */
+:root{
+  /* dark mode styles  */
+  --Dark-Blue-Dark-Mode-Elements:hsl(209, 23%, 22%);
+  --Very-Dark-Blue-Dark-Mode-Background: hsl(207, 26%, 17%);
+  /* end of dark mode styles */
+  --White-Dark-Mode-Text-Light-Mode-Elements: hsl(0, 0%, 100%);
+  /* light mode styles */
+  --Very-Light-Gray-Light-Mode-Background: hsl(0, 0%, 98%);
+  --Very-Dark-Blue-Light-Mode-Text: hsl(200, 15%, 8%);
+  --Dark-Gray-Light-Mode-Input: hsl(0, 0%, 52%);
+  /* end of light mode styles */
+  --fontsize-Homepage-Items: 14px;
+  --fontsize-Detail-Page: 16px;
+  --transition:all 0.4s ease;
+  --borderRadius:4px;
+  --box-shadow:0px 0px 5px 2px var(--Very-Dark-Blue-Light-Mode-Text);
+  --box-shadow-other:0px 0px 2px 1px var(--Dark-Gray-Light-Mode-Input);
+  --box-shadow-tile:0px 0px 100px 3px rgba(7,5,3,0.1);
+  --box-shadow-header:1px 3px 0px 2px rgba(8px,6px,5px, 0.4);
+  --borderCountryShadow:0px 0px 100px 2px var(--Very-Dark-Blue-Light-Mode-Text);
+}
+
